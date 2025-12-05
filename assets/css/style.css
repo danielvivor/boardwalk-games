@@ -10,21 +10,28 @@
 
 /* CSS Variables */
 :root {
-    --primary-font: "Inter", sanserif;
-    --secondary-font: "Macondo", cursie;
-    --primary-color: #416a8e; /* blue */
-    --secondary-color: #aa9581; /* brown /
+  --primary-font: "Inter", sanserif;
+  --secondary-font: "Macondo", cursie;
+  --primary-color: #3a2620; /* dark brown */
+  --secondary-color: #aa9581; /* light brown */
+  --highlight-color: #416a8e; /* blue */
+  --light-highlight-color: #7a9fc2; /* light blue */
+  
 }
+
 
 /* General body styles */
-body {
+  body {
     font-family: var(--primary-font);
-}
+  }
 
-h1,
-h2,
-h3 {
+  h1,
+  h2,
+  h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
-}
-}
+  }
+
+  .sub-heading-color {
+    color: var(--highlight-color);
+  }
