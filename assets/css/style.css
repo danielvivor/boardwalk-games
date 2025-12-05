@@ -8,6 +8,14 @@
   box-sizing: border-box;
 }
 
+/* CSS Variables */
+:root {
+    --primary-font: "Inter", sanserif;
+    --secondary-font: "Macondo", cursie;
+    --primary-color: #416a8e; /* blue */
+
+}
+
 /* General body styles */
 body {
     font-family: "Inter", sans-serif;
