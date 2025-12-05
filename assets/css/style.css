@@ -13,7 +13,7 @@
     --primary-font: "Inter", sanserif;
     --secondary-font: "Macondo", cursie;
     --primary-color: #416a8e; /* blue */
-
+    --secondary-color: #aa9581; /* brown /
 }
 
 /* General body styles */
@@ -26,4 +26,5 @@ h2,
 h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
+}
 }
