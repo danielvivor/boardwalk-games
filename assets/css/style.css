@@ -36,6 +36,14 @@
     color: var(--highlight-color);
   }
 
+  /* Navabar */
+  #navbar {
+    background-color: var(--primary-color);
+  }
+  #navbar .logo {
+    width: 25px;
+  }
+
   /* Grid visualization CSS for testing
   .container,
   .row {
