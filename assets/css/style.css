@@ -36,7 +36,7 @@
     color: var(--highlight-color);
   }
 
-  /* Grid visualization CSS for testing */
+  /* Grid visualization CSS for testing
   .container,
   .row {
     border: 2px solid black;
@@ -46,3 +46,4 @@
     border: 2px solid white;
     background-color: lightgray;
   }
+    */
